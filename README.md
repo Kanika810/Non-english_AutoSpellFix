@@ -15,17 +15,17 @@ Handle many realistic error types (insertions, deletions, substitutions, transpo
 Produce an output file with both the original (possibly incorrect) word and the corrected word.
 
 Example error–correction pairs:
-ROM → Ram
-RAAM → Ram
-Aum → Aam
+ROM → Ram, 
+RAAM → Ram, 
+Aum → Aam, 
 RAUM → Ram
 
 ✨ Output:
 The program produces a corrected output file, for example corrections.csv, with the following format:
-File_Error	Corrected
-Aum	 -       Aam
-ROM  -       Ram
-RAAM -   	   Ram
+File_Error - Corrected ->
+Aum	 - Aam, 
+ROM  - Ram, 
+RAAM -  Ram
 
 -----------------------------------------------------------------------------------------
 
